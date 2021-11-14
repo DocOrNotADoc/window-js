@@ -3,6 +3,7 @@ import modals from './modules/modals';
 import tabs from './modules/tabs';
 import forms from './modules/forms';
 import timer from './modules/timer';
+import images from './modules/images';
 
 window.addEventListener('DOMContentLoaded', () => {
   "use strict";
@@ -15,4 +16,5 @@ window.addEventListener('DOMContentLoaded', () => {
   forms();
 
   timer('.container1', deadline);
+  images();
 });
